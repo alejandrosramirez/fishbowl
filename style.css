@@ -110,7 +110,7 @@ body {
     animation: animate123 5s linear infinite;
     background: linear-gradient(to bottom, #9b76538a 0%, #8c6744f5 100%);
     border-bottom-left-radius: 350px;
-    border-bottom-right-radius: 350px; 
+    border-bottom-right-radius: 350px;
     bottom: 0px;
     box-shadow: 24px 10px 19px 30px #8f795d8c;
     left: 0px;
@@ -774,5 +774,15 @@ body {
 }
 
 .sand {
-    background: linear-gradient(to bottom, #9b76538a 0%, #8c6744f5 100%);
+    content: "";
+    /* background-color: #57238f; */
+    background: linear-gradient(to bottom, #9b76538a 0%, #8c6744f5 20%);
+    border-bottom-left-radius: 350px;
+    border-bottom-right-radius: 350px;
+    bottom: 0px;
+    left: 0px;
+    position: absolute;
+    right: 0px;
+    top: 270px;
+    z-index: 9999;
 }
