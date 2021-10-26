@@ -775,7 +775,6 @@ body {
 
 .sand {
     content: "";
-    /* background-color: #57238f; */
     background: linear-gradient(to bottom, #9b76538a 0%, #8c6744f5 20%);
     border-bottom-left-radius: 350px;
     border-bottom-right-radius: 350px;
