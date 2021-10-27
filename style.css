@@ -816,6 +816,7 @@ img.fish-shinning {
     left: 276px;
     position: absolute;
     width: 130px;
+    z-index: 99999;
 }
 
 @keyframes animateshinning {
