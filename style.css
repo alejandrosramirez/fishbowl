@@ -812,7 +812,7 @@ img.fish-bubbles {
 }
 
 img.fish-shinning {
-    animation: animateshinning 13s linear infinite;
+    animation: animateshinning 15s linear infinite;
     bottom: 200px;
     left: 276px;
     position: absolute;
@@ -843,9 +843,9 @@ img.fish-shinning {
 
 .spooky-paragraph {
     /* color: white; */
-    font-family: "Griffy", cursive;
+    font-family: "Arial Narrow", cursive;
     color: white;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 900;
     padding: 1em;
 }
