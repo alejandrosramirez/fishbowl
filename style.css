@@ -785,3 +785,50 @@ body {
     top: 270px;
     z-index: 9999;
 }
+
+img.fish-bubbles {
+    animation: animatebubbles 10s linear infinite;
+    bottom: 100px;
+    left: 280px;
+    position: absolute;
+    width: 130px;
+    z-index: 99999;
+}
+
+@keyframes animatebubbles {
+    0% {
+        transform: translate(100px, 0) rotateY(180deg);
+    }
+    50% {
+        transform: translate(-200px, 0) rotateY(180deg);
+    }
+    51% {
+        transform: translate(-200px, 0) rotateY(0deg);
+    }
+    100% {
+        transform: translate(100px, 0) rotateY(0deg);
+    }
+}
+
+img.fish-shinning {
+    animation: animateshinning 7s linear infinite;
+    bottom: 200px;
+    left: 276px;
+    position: absolute;
+    width: 130px;
+}
+
+@keyframes animateshinning {
+    0% {
+        transform: translate(200px, 0) rotateY(0deg);
+    }
+    50% {
+        transform: translate(-280px, 0) rotateY(0deg);
+    }
+    51% {
+        transform: translate(-280px, 0) rotateY(180deg);
+    }
+    100% {
+        transform: translate(200px, 0) rotateY(180deg);
+    }
+}
