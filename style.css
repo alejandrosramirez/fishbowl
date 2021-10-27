@@ -1,5 +1,5 @@
 body {
-    background-color: black;
+    background-color: #6f6c5d;
     margin: 0px;
     padding: 0px;
 }
@@ -22,7 +22,7 @@ body {
     top: 50%;
     transform: translate(-50%, -50%);
     width: 600px;
-    z-index: 999;
+    z-index: -999;
 }
 
 .bowl:after {
@@ -832,4 +832,20 @@ img.fish-shinning {
     100% {
         transform: translate(200px, 0) rotateY(180deg);
     }
+}
+
+.spooky-title {
+    font-family: "Creepster", cursive;
+    font-size: 3em;
+}
+
+.spooky-paragraph {
+    /* color: white; */
+    font-family: "Griffy", cursive;
+    font-size: 17px;
+    font-weight: 900;
+}
+
+.blockquote-footer {
+    color: black;
 }
