@@ -787,7 +787,7 @@ body {
 }
 
 img.fish-bubbles {
-    animation: animatebubbles 10s linear infinite;
+    animation: animatebubbles 5s linear infinite;
     bottom: 100px;
     left: 280px;
     position: absolute;
@@ -811,7 +811,7 @@ img.fish-bubbles {
 }
 
 img.fish-shinning {
-    animation: animateshinning 7s linear infinite;
+    animation: animateshinning 13s linear infinite;
     bottom: 200px;
     left: 276px;
     position: absolute;
