@@ -1,5 +1,6 @@
 body {
-    background-color: #6f6c5d;
+    /* background-color: #6f6c5d; */
+    background-color: blueviolet;
     margin: 0px;
     padding: 0px;
 }
@@ -835,6 +836,7 @@ img.fish-shinning {
 }
 
 .spooky-title {
+    color: white;
     font-family: "Creepster", cursive;
     font-size: 3em;
 }
@@ -842,10 +844,12 @@ img.fish-shinning {
 .spooky-paragraph {
     /* color: white; */
     font-family: "Griffy", cursive;
-    font-size: 17px;
+    color: white;
+    font-size: 18px;
     font-weight: 900;
+    padding: 1em;
 }
 
 .blockquote-footer {
-    color: black;
+    color: white;
 }
