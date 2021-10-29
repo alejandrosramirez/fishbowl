@@ -1,8 +1,9 @@
-body {
-    /* background-color: #6f6c5d; */
-    background-color: blueviolet;
+html, body {
     margin: 0px;
     padding: 0px;
+    height: 100%;
+    width: 100%;
+    
 }
 
 .container {
@@ -23,7 +24,7 @@ body {
     top: 50%;
     transform: translate(-50%, -50%);
     width: 600px;
-    z-index: -999;
+    z-index: 999;
 }
 
 .bowl:after {
@@ -35,7 +36,7 @@ body {
     transform: translate(-50%, -50%);
     top: 30.8%;
     width: 300px;
-    z-index: 9999999;
+    z-index: 999;
 }
 
 .bowl:before {
@@ -50,7 +51,7 @@ body {
     top: 10%;
     transform: translate(-50%, -50%);
     width: 400px;
-    z-index: 9999;
+    z-index: 999;
 }
 
 .water {
@@ -784,7 +785,7 @@ body {
     position: absolute;
     right: 0px;
     top: 270px;
-    z-index: 9999;
+    z-index: 999;
 }
 
 img.fish-bubbles {
@@ -793,7 +794,7 @@ img.fish-bubbles {
     left: 280px;
     position: absolute;
     width: 130px;
-    z-index: 99999;
+    z-index: 999;
 }
 
 @keyframes animatebubbles {
@@ -817,7 +818,7 @@ img.fish-shinning {
     left: 276px;
     position: absolute;
     width: 130px;
-    z-index: 99999;
+    z-index: 999;
 }
 
 @keyframes animateshinning {
@@ -835,19 +836,26 @@ img.fish-shinning {
     }
 }
 
+div.spooky-container {
+    position: absolute;
+    top: -50px;
+    left: 100px;
+    z-index: 9999;
+}
+
 .spooky-title {
-    color: white;
+    color: black;
     font-family: "Creepster", cursive;
     font-size: 3em;
 }
 
 .spooky-paragraph {
-    /* color: white; */
+    /* color: black; */
     font-family: "Arial Narrow", cursive;
-    color: white;
+    color: black;
     font-size: 16px;
     font-weight: 900;
-    padding: 1em;
+    padding: .75em;
 }
 
 .blockquote-footer {
