@@ -844,18 +844,20 @@ div.spooky-container {
 }
 
 .spooky-title {
-    color: black;
+    color: white;
     font-family: "Creepster", cursive;
     font-size: 3em;
+    text-decoration: underline black;
 }
 
 .spooky-paragraph {
     /* color: black; */
     font-family: "Arial Narrow", cursive;
-    color: black;
+    color: white;
     font-size: 16px;
     font-weight: 900;
     padding: .75em;
+    text-decoration: underline black;
 }
 
 .blockquote-footer {
