@@ -847,17 +847,16 @@ div.spooky-container {
     color: white;
     font-family: "Creepster", cursive;
     font-size: 3em;
-    text-decoration: underline black;
 }
 
 .spooky-paragraph {
-    /* color: black; */
+    color: #a2a2a2;
+    border: 2px solid #d8d8d8;
+    border-radius: 6px;
     font-family: "Arial Narrow", cursive;
-    color: white;
     font-size: 16px;
     font-weight: 900;
     padding: .75em;
-    text-decoration: underline black;
 }
 
 .blockquote-footer {
